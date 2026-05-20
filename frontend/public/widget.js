@@ -69,8 +69,7 @@
       width: '100%',
       height: '100%',
       border: 'none',
-      background: 'transparent',
-      colorScheme: 'light dark'
+      background: 'transparent'
     });
 
     iframe.onload = function() {
