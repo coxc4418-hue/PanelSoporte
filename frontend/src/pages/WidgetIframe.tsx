@@ -52,6 +52,9 @@ function WidgetIframe() {
   };
 
   useEffect(() => {
+    document.body.style.background = 'transparent';
+    document.body.style.backgroundColor = 'transparent';
+
     if (!apiKey) {
       setError(true);
       return;
