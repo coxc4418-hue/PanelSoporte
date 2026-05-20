@@ -73,6 +73,26 @@
       colorScheme: 'light dark'
     });
 
+    iframe.onload = function() {
+      try {
+        const doc = iframe.contentDocument || iframe.contentWindow.document;
+        if (doc) {
+          const style = doc.createElement('style');
+          style.innerHTML = `
+            html, body, #root {
+              background: transparent !important;
+              background-color: transparent !important;
+            }
+          `;
+          doc.head.appendChild(style);
+          // Also remove tailwind class if present
+          doc.body.classList.remove('bg-[#0b0c10]');
+        }
+      } catch (e) {
+        console.error('OroDig AI: Could not style iframe content.', e);
+      }
+    };
+
     iframe.setAttribute('allow', 'clipboard-read; clipboard-write');
     container.appendChild(iframe);
     document.body.appendChild(container);
