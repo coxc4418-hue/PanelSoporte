@@ -63,7 +63,7 @@
     iframe.id = 'orodig-ai-widget-iframe';
     
     // Set source pointing to the frontend widget page
-    iframe.src = `${hostUrl}/widget-iframe?apiKey=${apiKey}&parentOrigin=${encodeURIComponent(window.location.origin)}`;
+    iframe.src = `${hostUrl}/widget-iframe?apiKey=${apiKey}&v=6&parentOrigin=${encodeURIComponent(window.location.origin)}`;
     
     Object.assign(iframe.style, {
       width: '100%',

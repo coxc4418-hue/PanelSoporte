@@ -66,7 +66,7 @@
     // During dev, the frontend can be on port 3000, in prod it will be served from Express on port 5000.
     // If running in development, we load from localhost:3000/widget-iframe if frontend is there,
     // otherwise the backend will serve it. Let's make it load from hostUrl.
-    iframe.src = `${hostUrl}/widget-iframe?apiKey=${apiKey}&parentOrigin=${encodeURIComponent(window.location.origin)}`;
+    iframe.src = `${hostUrl}/widget-iframe?apiKey=${apiKey}&v=6&parentOrigin=${encodeURIComponent(window.location.origin)}`;
     
     Object.assign(iframe.style, {
       width: '100%',
