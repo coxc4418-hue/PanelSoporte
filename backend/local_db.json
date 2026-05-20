@@ -1,0 +1,136 @@
+{
+  "sites": [
+    {
+      "id": "site_default_01",
+      "name": "OroDig Colombia",
+      "domain": "orodig-col.web.app",
+      "apiKey": "ORODIG_SITE_001",
+      "isActive": true,
+      "themeColor": "#8b5cf6",
+      "logoUrl": "",
+      "position": "right",
+      "welcomeMessage": "¡Hola! Bienvenido a OroDig Colombia. ¿En qué podemos ayudarte hoy?",
+      "avatarUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=80&h=80&q=80",
+      "aiModel": "llama-3.1-8b-instant",
+      "systemPrompt": "Eres un asistente virtual de OroDig Colombia. Eres amable, profesional y hablas en español. Respondes preguntas sobre servicios digitales de desarrollo de software, automatizaciones e IA.",
+      "faqs": [
+        {
+          "q": "¿Qué servicios ofrecen?",
+          "a": "Ofrecemos desarrollo de software a medida, integración de asistentes IA, automatización de procesos y diseño web premium."
+        },
+        {
+          "q": "¿Cómo los contacto por WhatsApp?",
+          "a": "Puedes contactarnos directamente al +573000000000 para soporte prioritario."
+        }
+      ],
+      "companyInfo": "OroDig es una agencia de software líder en automatización y soluciones de IA.",
+      "whatsappNumber": "+573000000000",
+      "supportSchedule": {
+        "active": true,
+        "start": "08:00",
+        "end": "18:00"
+      },
+      "createdAt": "2026-05-20T03:46:15.999Z"
+    },
+    {
+      "id": "site_default_02",
+      "name": "OroDig Global",
+      "domain": "oro-dig.web.app",
+      "apiKey": "ORODIG_SITE_002",
+      "isActive": true,
+      "themeColor": "#06b6d4",
+      "logoUrl": "",
+      "position": "right",
+      "welcomeMessage": "Hello! Welcome to OroDig Global. How can we help you today?",
+      "avatarUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=80&h=80&q=80",
+      "aiModel": "llama-3.1-8b-instant",
+      "systemPrompt": "You are the OroDig Global virtual support assistant. Professional and polite. Assist users with software development inquiries in English.",
+      "faqs": [
+        {
+          "q": "What services do you provide?",
+          "a": "Custom web applications, AI integrations, automated workflows, and CRM systems."
+        }
+      ],
+      "companyInfo": "OroDig Global builds software solutions for international clients.",
+      "whatsappNumber": "+15550199",
+      "supportSchedule": {
+        "active": false,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "createdAt": "2026-05-20T03:46:16.001Z"
+    }
+  ],
+  "conversations": [
+    {
+      "siteId": "site_default_01",
+      "visitorId": "vis_21pgg08haej",
+      "status": "active",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "Hola, que servicios ofrecen",
+          "timestamp": "2026-05-20T03:49:27.935Z"
+        },
+        {
+          "sender": "bot",
+          "text": "Disculpa, he experimentado un inconveniente al procesar tu respuesta. ¿Podrías volver a intentarlo en un momento?",
+          "timestamp": "2026-05-20T03:49:28.535Z"
+        }
+      ],
+      "createdAt": "2026-05-20T03:49:27.924Z",
+      "updatedAt": "2026-05-20T03:49:28.536Z",
+      "id": "conv_ihahwwg"
+    },
+    {
+      "siteId": "site_default_01",
+      "visitorId": "vis_test_123",
+      "status": "active",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "Hola, que servicios ofrecen?",
+          "timestamp": "2026-05-20T03:51:44.851Z"
+        },
+        {
+          "sender": "bot",
+          "text": "Disculpa, he experimentado un inconveniente al procesar tu respuesta. ¿Podrías volver a intentarlo en un momento?",
+          "timestamp": "2026-05-20T03:51:45.235Z"
+        }
+      ],
+      "createdAt": "2026-05-20T03:51:44.847Z",
+      "updatedAt": "2026-05-20T03:51:45.235Z",
+      "id": "conv_yqzcvxl"
+    },
+    {
+      "siteId": "site_default_01",
+      "visitorId": "vis_final_test",
+      "status": "escalated_whatsapp",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "Hola, que servicios ofrecen?",
+          "timestamp": "2026-05-20T03:53:12.683Z"
+        },
+        {
+          "sender": "bot",
+          "text": "¡Hola! En OroDig, ofrecemos servicios de desarrollo de software a medida, integración de asistentes IA, automatización de procesos y diseño web premium. Estamos aquí para ayudarte a encontrar la solución perfecta para tus necesidades. ¿En qué podemos ayudarte hoy?",
+          "timestamp": "2026-05-20T03:53:13.254Z"
+        },
+        {
+          "sender": "user",
+          "text": "Quiero hablar con un asesor humano por favor",
+          "timestamp": "2026-05-20T03:53:19.585Z"
+        },
+        {
+          "sender": "bot",
+          "text": "Claro que sí. Si tienes alguna duda o necesitas asesoramiento personalizado, te invito a contactarnos directamente al +573000000000 a través de WhatsApp. Uno de nuestros asesores se pondrá en contacto contigo lo antes posible para ayudarte con tus necesidades.",
+          "timestamp": "2026-05-20T03:53:20.174Z"
+        }
+      ],
+      "createdAt": "2026-05-20T03:53:12.680Z",
+      "updatedAt": "2026-05-20T03:53:20.174Z",
+      "id": "conv_un0ja9m"
+    }
+  ]
+}
