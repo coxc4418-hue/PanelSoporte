@@ -111,7 +111,7 @@
           // Open state: enlarge container
           Object.assign(container.style, {
             width: '420px',
-            height: '680px',
+            height: '590px',
             maxHeight: 'calc(100vh - 40px)',
             maxWidth: 'calc(100vw - 40px)'
           });

@@ -244,7 +244,7 @@ function WidgetIframe() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 50, scale: 0.9 }}
             transition={{ duration: 0.25, ease: 'easeOut' }}
-            className="w-full h-full max-h-[640px] rounded-3xl glass-widget flex flex-col shadow-2xl overflow-hidden border border-white/[0.08]"
+            className="w-full h-full max-h-[560px] rounded-3xl glass-widget flex flex-col shadow-2xl overflow-hidden border border-white/[0.08]"
           >
             {/* Widget Header */}
             <div 
