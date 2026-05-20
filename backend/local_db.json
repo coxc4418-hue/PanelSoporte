@@ -2,31 +2,35 @@
   "sites": [
     {
       "id": "site_default_01",
-      "name": "OroDig Colombia",
+      "name": "OroWeb Landing",
       "domain": "orodig-col.web.app",
-      "apiKey": "ORODIG_SITE_001",
-      "isActive": true,
-      "themeColor": "#8b5cf6",
+      "apiKey": "ORODIG_SITE_1AADN472",
+      "isActive": false,
+      "themeColor": "#0ea5ff",
       "logoUrl": "",
       "position": "right",
-      "welcomeMessage": "¡Hola! Bienvenido a OroDig Colombia. ¿En qué podemos ayudarte hoy?",
+      "welcomeMessage": "¡Hola! Bienvenido a OroDig PTS. ¿En qué puedo ayudarte hoy?",
       "avatarUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=80&h=80&q=80",
       "aiModel": "llama-3.1-8b-instant",
-      "systemPrompt": "Eres un asistente virtual de OroDig Colombia. Eres amable, profesional y hablas en español. Respondes preguntas sobre servicios digitales de desarrollo de software, automatizaciones e IA.",
+      "systemPrompt": "Eres el Asistente Virtual Oficial de OroDig PTS, un software avanzado de crecimiento financiero automatizado con un sistema de matrices MLM. Tu objetivo es explicar cómo funciona la plataforma, guiar a los usuarios y resolver dudas de manera amable, profesional y concisa. Si un usuario te pregunta cómo registrarse o activar su cuenta, indícale claramente que haga clic en el botón 'Activar Mi Cuenta' de la página principal para registrarse usando un código de invitación.\n\nEstructura de Matrices:\n- Nivel 0 (Tú): El nodo raíz.\n- Nivel 1 (Referidos Directos): Comisión del 20% (+$20 por activación).\n- Nivel 2 (Referidos Indirectos): Comisión del 10% (+$10 por activación).\n- Nivel 3 (Comisión de Red): Comisión del 5%.\n- Bono Global de Liderazgo: Hasta un 15% adicional para rangos destacados.\n\nSistema de Rangos:\n1. BRONCE: Requiere 5 referidos. Ganancias de hasta $500/mes. Beneficios: Bono directo de 20%, acceso a la Academia Básica.\n2. PLATA: Requiere 10 referidos. Ganancias de hasta $1,200/mes. Beneficios: Nivel 2 desbloqueado, soporte prioritario.\n3. ORO (Más Popular): Requiere 25 referidos. Ganancias de hasta $3,500/mes. Beneficios: Bono de liderazgo de 5%, eventos exclusivos.\n4. DIAMANTE: Requiere 50 referidos. Ganancias de hasta $8,000/mes. Beneficios: Nivel 3 desbloqueado, retiros sin comisión.\n5. CORONA: Requiere 100 referidos. Ganancias de hasta $18,000/mes. Beneficios: Bono global de 2%, viaje anual pagado.\n6. ÉLITE: Requiere 250+ referidos. Ganancias ilimitadas. Beneficios: Participación del 1% en la empresa, concierge personal.",
       "faqs": [
         {
-          "q": "¿Qué servicios ofrecen?",
-          "a": "Ofrecemos desarrollo de software a medida, integración de asistentes IA, automatización de procesos y diseño web premium."
+          "q": "¿Cómo funciona el sistema de matrices?",
+          "a": "El sistema es una estructura de matrices automatizada donde ganas comisiones en tiempo real por niveles: 20% en el Nivel 1 (referidos directos), 10% en el Nivel 2 (referidos indirectos) y 5% en el Nivel 3 (red)."
         },
         {
-          "q": "¿Cómo los contacto por WhatsApp?",
-          "a": "Puedes contactarnos directamente al +573000000000 para soporte prioritario."
+          "q": "¿Cuáles son los rangos disponibles?",
+          "a": "Los rangos son: Bronce (5 referidos), Plata (10 referidos), Oro (25 referidos), Diamante (50 referidos), Corona (100 referidos) y Élite (250+ referidos). Cada uno aumenta el límite mensual de ganancias y desbloquea beneficios."
+        },
+        {
+          "q": "¿Cómo me registro o activo mi cuenta?",
+          "a": "Puedes registrarte haciendo clic en el botón 'Activar Mi Cuenta' de la página principal. Necesitarás un código de invitación para completar el registro de forma segura."
         }
       ],
-      "companyInfo": "OroDig es una agencia de software líder en automatización y soluciones de IA.",
-      "whatsappNumber": "+573000000000",
+      "companyInfo": "OroDig PTS es una plataforma líder de crecimiento financiero automatizado que opera en más de 98 países, cuenta con más de 847,000 usuarios activos y ha generado más de $12.4M en ganancias de red. Su software implementa matrices MLM de comisiones automatizadas en tiempo real.",
+      "whatsappNumber": "",
       "supportSchedule": {
-        "active": true,
+        "active": false,
         "start": "08:00",
         "end": "18:00"
       },
