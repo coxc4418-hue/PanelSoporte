@@ -52,8 +52,21 @@ function WidgetIframe() {
   };
 
   useEffect(() => {
-    document.body.style.background = 'transparent';
-    document.body.style.backgroundColor = 'transparent';
+    document.body.style.setProperty('background', 'transparent', 'important');
+    document.body.style.setProperty('background-color', 'transparent', 'important');
+    document.body.classList.remove('bg-[#0b0c10]');
+
+    const htmlEl = document.documentElement;
+    if (htmlEl) {
+      htmlEl.style.setProperty('background', 'transparent', 'important');
+      htmlEl.style.setProperty('background-color', 'transparent', 'important');
+    }
+
+    const rootEl = document.getElementById('root');
+    if (rootEl) {
+      rootEl.style.setProperty('background', 'transparent', 'important');
+      rootEl.style.setProperty('background-color', 'transparent', 'important');
+    }
 
     if (!apiKey) {
       setError(true);
